@@ -20,7 +20,7 @@ public:
     }
 };
 
-//Advansed solution
+//Advanced solution
 class Solution {
 public:
 
