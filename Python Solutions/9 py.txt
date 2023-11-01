@@ -13,7 +13,7 @@ class Solution:
         return True if (x == self.reverse_number(x)) else False
 
 
-//Advances solution
+//Advanced solution
 class Solution:
 
     def isPalindrome(self, x: int) -> bool:
