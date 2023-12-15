@@ -8,3 +8,9 @@ https://youtu.be/d9_Tj9Y9T3Y?si=GkbSW3Iej_9OJLyy
 
 13 Roman To Integer
 https://youtu.be/IKqJ2gb8XJI?si=LGPgO0qgiyPiZDQY
+
+1 Two Sum
+https://youtu.be/Coy-jW5PWOs?si=jYviNJTYkekmtrn8
+
+283 Move Zeroes
+https://youtu.be/AIJYXhzA_FA?si=SvZFkxh9auTR-IkW
