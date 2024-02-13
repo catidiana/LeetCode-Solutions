@@ -1,0 +1,46 @@
+//Solution 1 : Sorting
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        return sorted(s) == sorted(t)
+
+//Solution 2: Hash Table
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+
+        map = defaultdict(int)
+        for c in s:
+            map[c] += 1
+
+        for c in t:
+            map[c] -= 1
+
+        vals = map.values()
+        
+        for c in vals:
+            if c != 0:
+                return False
+        
+        return True
+
+//Solution 3: Array
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+
+        map = [0] * 26
+        for c in s:
+            map[ord(c) - ord('a')] += 1
+
+        for c in t:
+            map[ord(c) - ord('a')] -= 1
+        
+        for c in map:
+            if c != 0:
+                return False
+        
+        return True
