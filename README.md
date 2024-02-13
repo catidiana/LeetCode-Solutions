@@ -12,6 +12,8 @@ https://youtu.be/IKqJ2gb8XJI?si=LGPgO0qgiyPiZDQY
 58 Length of Last Word
 https://youtu.be/SixYEKWkzds?si=aYtT4OAi_gEtW5Ym
 
+242 Valid Anagram
+
 283 Move Zeroes
 https://youtu.be/AIJYXhzA_FA?si=SvZFkxh9auTR-IkW
 
