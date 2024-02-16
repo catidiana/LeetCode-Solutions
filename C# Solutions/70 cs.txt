@@ -1,0 +1,46 @@
+//Solution 1:
+public class Solution {
+    public Dictionary<int, int> memo = new Dictionary<int, int>();
+
+    public int ClimbStairs(int n) {
+        if(n == 1)
+            return 1;
+        if(n == 2)
+            return 2;
+        if(!memo.ContainsKey(n))
+            memo.Add(n, ClimbStairs(n - 2) + ClimbStairs(n - 1));
+
+        return memo[n];
+    }
+}
+
+//Solution 2:
+public class Solution {
+    public int ClimbStairs(int n) {
+        if(n == 1)
+            return 1;
+       int[] memo = new int[n + 1];
+        memo[1] = 1;
+        memo[2] = 2;
+        for(int i = 3; i < n + 1; i++)
+            memo[i] = memo[i - 2] + memo[i - 1];
+        return memo[n];
+    }
+}
+
+//Solution 3:
+public class Solution {
+    public int ClimbStairs(int n) {
+        int first = 1;
+        int second = 2;
+        if(n == 1)
+            return first;
+        for(int i = 3; i <= n; i++)
+            {
+                int temp = first + second;
+                first = second;
+                second = temp;
+            }
+        return second;
+    }
+}
