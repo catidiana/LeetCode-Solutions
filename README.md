@@ -13,8 +13,13 @@ https://youtu.be/IKqJ2gb8XJI?si=LGPgO0qgiyPiZDQY
 https://youtu.be/SixYEKWkzds?si=aYtT4OAi_gEtW5Ym
 
 70 Climbing Stairs
+https://youtu.be/id0tOyzmV74
+
+231 Power Of Two
+https://youtu.be/kuaJLA5gZi8
 
 242 Valid Anagram
+https://youtu.be/4Vb7g7zbm20
 
 283 Move Zeroes
 https://youtu.be/AIJYXhzA_FA?si=SvZFkxh9auTR-IkW
