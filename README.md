@@ -27,5 +27,8 @@ https://youtu.be/AIJYXhzA_FA?si=SvZFkxh9auTR-IkW
 344 Reverse String
 https://youtu.be/1ydMVE-785Y?si=QAUpYiJKMsfIyQFL
 
+504 Base 7
+https://youtu.be/sds3eOgDVgQ?si=VVLxxtQVwyWLgcFr
+
 724 Find Pivot iIndex
 https://youtu.be/joLuXTdI7wU?si=1X4pO5pnkPyU084R
