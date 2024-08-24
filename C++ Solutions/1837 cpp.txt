@@ -1,0 +1,23 @@
+//Solution 1:
+class Solution {
+public:
+    int sumBase(int n, int k) {
+        int sum = 0;
+        while(n != 0)
+        {
+            sum += n % k;
+            n /= k;
+        }
+        return sum;
+    }
+};
+
+//Solution 2:
+class Solution {
+public:
+    int sumBase(int n, int k) {
+        if (n < k)
+            return n;
+        return (n % k) + sumBase(n / k, k);
+    }
+};

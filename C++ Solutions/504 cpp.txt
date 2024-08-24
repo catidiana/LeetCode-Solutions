@@ -1,0 +1,33 @@
+//Solution 1
+class Solution {
+public:
+    string convertToBase7(int num) {
+        if(num == 0)
+            return "0";
+        if(num < 0)
+            return "-" + convertToBase7(-num);
+
+        string res;
+        while(num != 0)
+        {
+            char digit = '0' + num % 7;
+            res += digit;
+            num /= 7;
+        }
+        reverse(res.begin(), res.end());
+        return res;
+    }
+};
+
+//Solution 2
+class Solution {
+public:
+    string convertToBase7(int num) {
+        if(num < 0)
+            return "-" + convertToBase7(-num);
+        if(num < 7)
+            return to_string(num);
+
+        return convertToBase7(num / 7) + to_string(num % 7);
+    }
+};
