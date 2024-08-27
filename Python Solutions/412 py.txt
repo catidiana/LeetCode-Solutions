@@ -1,0 +1,14 @@
+class Solution:
+    def fizzBuzz(self, n: int) -> List[str]:
+        result = []
+        for i in range(n):
+            num = i + 1
+            fizzbuzz = ''
+            if num % 3 == 0:
+                fizzbuzz += 'Fizz'
+            if num % 5 == 0:
+                fizzbuzz += 'Buzz'
+            if fizzbuzz == '':
+                fizzbuzz = str(num)
+            result.append(fizzbuzz)
+        return result
