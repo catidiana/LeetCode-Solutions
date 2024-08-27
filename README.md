@@ -27,6 +27,9 @@ https://youtu.be/AIJYXhzA_FA?si=SvZFkxh9auTR-IkW
 344 Reverse String
 https://youtu.be/1ydMVE-785Y?si=QAUpYiJKMsfIyQFL
 
+412 Fizz Buzz
+https://youtu.be/_TK2hdNAiTk
+
 504 Base 7
 https://youtu.be/sds3eOgDVgQ?si=VVLxxtQVwyWLgcFr
 
