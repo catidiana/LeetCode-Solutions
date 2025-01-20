@@ -21,6 +21,9 @@ https://youtu.be/kuaJLA5gZi8
 242 Valid Anagram
 https://youtu.be/4Vb7g7zbm20
 
+258 Add Digits
+https://youtu.be/fGzJrwSwcKE
+
 283 Move Zeroes
 https://youtu.be/AIJYXhzA_FA?si=SvZFkxh9auTR-IkW
 
