@@ -9,6 +9,9 @@ https://youtu.be/d9_Tj9Y9T3Y?si=GkbSW3Iej_9OJLyy
 13 Roman To Integer
 https://youtu.be/IKqJ2gb8XJI?si=LGPgO0qgiyPiZDQY
 
+LeetCode 20: Valid Parentheses
+https://youtu.be/Ag3R8Z-Dgoc?si=4vpCwAxwZKKx9qfI
+
 58 Length of Last Word
 https://youtu.be/SixYEKWkzds?si=aYtT4OAi_gEtW5Ym
 
